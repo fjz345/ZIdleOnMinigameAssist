@@ -5,3 +5,4 @@ zoom_factor = 0.5
 performance_critical = False
 catching_megalodon = False
 test_video = False
+minigame_max_level_count = 300

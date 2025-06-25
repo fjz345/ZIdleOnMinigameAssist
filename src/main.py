@@ -107,7 +107,7 @@ def debug_draw_text_controls(img_frame):
         "+",
         "q/esc",
         "w",
-        "§/0, 1-9",
+        "§/0, f1-9",
         "e",
         ]
     controls_actions = [

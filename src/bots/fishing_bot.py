@@ -883,6 +883,9 @@ class FishingBot:
             wait_new_round_delay_seconds = 6.0
 
             if duration >= wait_new_round_delay_seconds:
+                if self.fishing_state.level_count >= globals.minigame_max_level_count:
+                    time.sleep(9999999999999)
+
                 (found_bar, bar_rect) = self.find_bar_rect(img_frame)
                 if found_bar:
                     self.bar_rect = bar_rect
